@@ -1,0 +1,443 @@
+{
+  "users": [
+    {
+      "email": "almaz@gmail.com",
+      "password": "$2a$10$QPBlRyzRbkEK5aS5ayXDsek0zJnHjVzcWK41ilnwyO/67nQ9g3Lam",
+      "id": 1
+    },
+    {
+      "email": "fdsfdsf@gmail.com",
+      "password": "$2a$10$DE3rG75GR4T79h8lQ3tmdeeKyb6tOM.owmGWH6qF6YT/dI4A8xsZu",
+      "id": 2
+    },
+    {
+      "email": "alica@gmail.com",
+      "password": "$2a$10$v52sMhEFNe3YiLo017BWc.JS2K66A7ut.vXE4sjyItk06xZQGLR46",
+      "id": 3
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "image": "./assets/sales/1.png",
+      "title": "Без мяса? Здесь!",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 2,
+      "image": "./assets/sales/2.png",
+      "title": "Выгодное комбо c напитками",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 3,
+      "image": "./assets/sales/3.png",
+      "title": "Сырный бортик",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 4,
+      "image": "./assets/sales/2.png",
+      "title": "Выгодное комбо c напитками",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 5,
+      "image": "./assets/sales/3.png",
+      "title": "Сырный бортик",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 6,
+      "image": "./assets/sales/1.png",
+      "title": "Без мяса? Здесь!",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 7,
+      "image": "./assets/sales/3.png",
+      "title": "Сырный бортик",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 8,
+      "image": "./assets/sales/1.png",
+      "title": "Без мяса? Здесь!",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    },
+    {
+      "id": 9,
+      "image": "./assets/sales/2.png",
+      "title": "Выгодное комбо c напитками",
+      "description": "Самое время попробовать «Сырную» пиццу, «Маргариту»,пиццу «Овощи и грибы», Пасту Четыре сыра, Томатный суп с гренками, Грибной Стартер, Рулетики с сыром, Картофель из печи, Картофельные оладьи или Греческий салат. Выберите свой вкус!",
+      "date": "до 31 июля."
+    }
+  ],
+  "delivery": [
+    {
+      "id": 1,
+      "title": "У наших курьеров всегда должна быть сдача!",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 2,
+      "title": "Вам что-то не довезли?",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 3,
+      "title": "Не понравился продукт?",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 4,
+      "title": "Если появились замечания",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 5,
+      "title": "Оплата Visa, MasterCard и МИР",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    },
+    {
+      "id": 6,
+      "title": "Реквизиты",
+      "answer": "Мы очень внимательно следим за качеством нашей работы, поэтому, если у вас будут какие-либо замечания или предложения, то обязательно сообщайте их нам"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://static1.bigstockphoto.com/6/0/4/large1500/406882796.jpg",
+      "title": "Ягненок",
+      "description": "Фаршированный гречневой кашей курагой апельсином и зеленым яблоком",
+      "price": 620,
+      "weight": 210,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "fish"
+    },
+    {
+      "id": 2,
+      "image": "https://img.delicious.com.au/xdcSvWCB/del/2015/11/roast-duck-with-walnut-and-freekeh-stuffing-23182-2.jpg",
+      "title": "Индейка",
+      "description": "Фаршированный гречневой кашей курагой апельсином и зеленым яблоком",
+      "price": 450,
+      "weight": 225,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "soup"
+    },
+    {
+      "id": 3,
+      "image": "https://img.delicious.com.au/DNRh78_N/w759-h506-cfill/del/2015/10/duck-breast-with-soba-noodles-and-mango-14750-1.jpg",
+      "title": "Гусь",
+      "description": "Фаршированный зелеными  яблоками",
+      "price": 7900,
+      "weight": 2400,
+      "protein": 20.23,
+      "fats": 2.63,
+      "carbohydrates": 3.35,
+      "calories": 234,
+      "categories": "meat"
+    },
+    {
+      "id": 4,
+      "image": "https://img.delicious.com.au/MmLGEEID/del/2015/10/duck-legs-braised-in-pinot-noir-12014-1.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "drinks"
+    },
+    {
+      "id": 5,
+      "image": "https://img.delicious.com.au/aHx-7eC6/w759-h506-cfill/del/2019/02/speedy-spiced-pumpkin-soup-102067-2.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "meat"
+    },
+    {
+      "id": 6,
+      "image": "https://img.delicious.com.au/MmLGEEID/del/2015/10/duck-legs-braised-in-pinot-noir-12014-1.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "cold"
+    },
+    {
+      "id": 7,
+      "image": "https://img.delicious.com.au/MmLGEEID/del/2015/10/duck-legs-braised-in-pinot-noir-12014-1.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "hot"
+    },
+    {
+      "id": 8,
+      "image": "https://img.delicious.com.au/pJ3ngMAO/w759-h506-cfill/del/2015/10/new-meat-and-three-veg-17151-2.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "grill"
+    },
+    {
+      "id": 9,
+      "image": "https://img.delicious.com.au/05m1DrnF/w759-h506-cfill/del/2018/06/chilean-meat-pie-81974-2.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "special"
+    },
+    {
+      "id": 10,
+      "image": "https://img.delicious.com.au/h5wTP8ov/del/2022/02/grilled-zucchini-with-spiced-chickpea-salsa-163336-2.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "meat"
+    },
+    {
+      "id": 11,
+      "image": "https://as1.ftcdn.net/v2/jpg/02/14/84/16/1000_F_214841638_yQNZPOM3PnVFRyA1VFPBtkGwy0lMojvd.jpg",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "fish"
+    },
+    {
+      "id": 12,
+      "image": "/public/assets/products/menu1.png",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "fish"
+    },
+    {
+      "id": 13,
+      "image": "/public/assets/products/menu2.png",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "fish"
+    },
+    {
+      "id": 14,
+      "image": "/public/assets/products/menu3.png",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "fish"
+    },
+    {
+      "id": 15,
+      "image": "/public/assets/products/menu4.png",
+      "title": "Утка",
+      "description": "Фаршированная рисом, курагой и айвой",
+      "price": 3230,
+      "weight": 2100,
+      "protein": 17.23,
+      "fats": 7.63,
+      "carbohydrates": 22.35,
+      "calories": 234,
+      "categories": "fish"
+    },
+    {
+      "title": "Крем-суп из картофеля и лука-порея ",
+      "image": "https://mir24.tv/uploaded/images/2018/March/5e831bd7393ec637fed1b039fa4e2e89be6dd5cd73fc972675814c0c9b31f6ae.jpg",
+      "description": "Этот нежный крем-суп из грузинского кафе-сыроварни «Мама Гочи»  очень сытный, с мягкой текстурой и густой консистенцией.",
+      "price": "550",
+      "weight": "344",
+      "protein": "8",
+      "fats": "5",
+      "carbohydrates": "10",
+      "categories": "soup",
+      "calories": 117,
+      "id": 16
+    },
+    {
+      "title": "Шечаманди",
+      "image": "https://imgtest.mir24.tv/uploaded/images/2018/March/7996389b249ebfb41cdafa37e609b4541e3bcdf84bd2b1be1dafe42dbdb4d54e.jpg",
+      "description": "Суп из шпината на сливках",
+      "price": "450",
+      "weight": "320",
+      "protein": "4",
+      "fats": "7",
+      "carbohydrates": "9",
+      "categories": "soup",
+      "calories": 115,
+      "id": 17
+    },
+    {
+      "title": "Колокифосупа",
+      "image": "https://mir24.tv/uploaded/images/2018/March/c093138878e9d71a00f93adc36e363f6db792985fb9ca4f341e8ee063fc89c74.jpg",
+      "description": "Греческий тыквенный суп ",
+      "price": "450",
+      "weight": "316",
+      "protein": "10",
+      "fats": "6",
+      "carbohydrates": "9",
+      "categories": "soup",
+      "calories": 130,
+      "id": 18
+    },
+    {
+      "title": "Том ям",
+      "image": "https://mir24.tv/uploaded/images/2018/March/b2860cd056d9319f41bc8ab172a496e3f5d2756a8a7121387d9cfd34c375d392.jpg",
+      "description": "Необыкновенно яркий по вкусу паназиатский суп с морепродуктами",
+      "price": "650",
+      "weight": "320",
+      "protein": "9",
+      "fats": "8",
+      "carbohydrates": "10",
+      "categories": "soup",
+      "calories": 148,
+      "id": 19
+    },
+    {
+      "title": "Морской окунь ",
+      "image": "https://www.restoran.ru/upload/resize_cache/editor/1af/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/morskoi_okun_zaryadye79d.webp",
+      "description": "Филе окуня обжариваем на гриле с двух сторон до появления золотистой корочки. Рыбу кладем на тарелку, украшаем лимоном, салатным миксом и поливаем томатным соусом.",
+      "price": "600",
+      "weight": "250",
+      "protein": "23",
+      "fats": "5",
+      "carbohydrates": "0",
+      "categories": "fish",
+      "calories": 137,
+      "id": 20
+    },
+    {
+      "title": "Черетто море",
+      "image": "https://www.restoran.ru/upload/resize_cache/editor/4a4/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/sup_po_sirakuzski_cheretto_more5c7.webp",
+      "description": "Все ингредиенты обжариваем в сотейнике на оливковом масле.  В конце приготовления добавляем вино, соус томат-базилик и рыбный бульон. Варим до готовности.",
+      "price": "594",
+      "weight": "314",
+      "protein": "12",
+      "fats": "9",
+      "carbohydrates": "5",
+      "categories": "fish",
+      "calories": 149,
+      "id": 21
+    },
+    {
+      "title": "Лосось",
+      "image": "https://www.restoran.ru/upload/resize_cache/editor/9cc/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/kopernik9dc.webp",
+      "description": "Выкладываем пюре из шпината, спаржу и зеленый горошек на тарелку, сверху кладем обжаренного лосося и поливаем соусом мацони.",
+      "price": "750",
+      "weight": "196",
+      "protein": "22",
+      "fats": "8",
+      "carbohydrates": "6",
+      "categories": "fish",
+      "calories": 184,
+      "id": 22
+    },
+    {
+      "title": "Половина стерлядки на гриле",
+      "image": "https://www.restoran.ru/upload/resize_cache/editor/198/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/sterlyadka_na_grile_zaryadye832.webp",
+      "description": "оловину стерляди маринуем в яблочном соке, соли, перце и меде в течение 3 минут. Обжариваем на гриле с 2 сторон по 5 минут. Редис, огурец и редьку дайкон мелко нарезаем. Стерлядку выкладываем на тарелку, кладем рядом салат, украшаем петрушкой и гранатом. При подаче подаем четверть лимона.",
+      "price": "600",
+      "weight": "215",
+      "protein": "22",
+      "fats": "5",
+      "carbohydrates": "3",
+      "categories": "fish",
+      "calories": 145,
+      "id": 23
+    },
+    {
+      "title": "Лимонад фруктовый",
+      "image": "https://www.restoran.ru/upload/resize_cache/editor/510/414_500_1/napitki936.jpg",
+      "description": "Лимонад из свежих фруктов и содовой",
+      "price": "250",
+      "weight": "295",
+      "protein": "2",
+      "fats": "0",
+      "carbohydrates": "1",
+      "categories": "drinks",
+      "calories": 12,
+      "id": 24
+    },
+    {
+      "title": "Milkshake",
+      "image": "https://tea.ua/upload/blog/0122/2601/milkcoct/1.png",
+      "description": "Клубничный молочный коктейль",
+      "price": "250",
+      "weight": "245",
+      "protein": "4",
+      "fats": "4",
+      "carbohydrates": "6",
+      "categories": "drinks",
+      "calories": 76,
+      "id": 25
+    }
+  ]
+}
