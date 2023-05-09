@@ -12,6 +12,26 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  &__label {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__select {
+    margin: 10px 0 30px;
+    color: #000000;
+    height: 40px;
+    width: 170px;
+    &-option {
+      color: #000000;
+    }
+  }
+
+  &__block {
+    display: flex;
+    column-gap: 10px;
+  }
 
   &__email {
     margin-bottom: 30px;

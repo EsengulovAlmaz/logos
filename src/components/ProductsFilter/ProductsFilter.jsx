@@ -14,12 +14,7 @@ import Card from "../Card/Card";
 
 const ProductsFilter = ({ title }) => {
 
-  const { products, getAllProducts } = useContext(customContext);
-
-  useEffect(() => {
-    getAllProducts()
-  }, [])
-
+  const { products } = useContext(customContext);
 
   return (
     <div className="products__filter">

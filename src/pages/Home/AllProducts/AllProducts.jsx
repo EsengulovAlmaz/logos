@@ -1,12 +1,19 @@
 import React from 'react';
 import ProductsFilter from '../../../components/ProductsFilter/ProductsFilter';
 import { useNavigate } from 'react-router-dom';
+import { menuData } from '../../../utils/menuData';
+import { customContext } from '../../../utils/Context';
 
 import "./Products.scss";
-import { menuData } from '../../../utils/menuData';
 
 const AllProducts = () => {
   const navigate = useNavigate();
+  const { getAllProducts } = React.useContext(customContext);
+
+  React.useEffect(() => {
+    getAllProducts()
+  }, [])
+
 
   return (
     <section className="products">

@@ -1,8 +1,9 @@
 import React from 'react';
 import instance from '../../utils/axios';
 import { useNavigate, useParams } from 'react-router-dom';
-import { IoIosArrowBack } from 'react-icons/io'
+import { IoIosArrowBack } from 'react-icons/io';
 import { BsCart3 } from "react-icons/bs";
+import { customContext } from '../../utils/Context';
 
 import "./Product.scss";
 
@@ -10,6 +11,7 @@ const Product = () => {
   const [product, setProduct] = React.useState({});
   const { id } = useParams();
   const navigate = useNavigate();
+  const { addBasket, basket, minusOneBasket, plusOneBasket } = React.useContext(customContext);
 
   React.useEffect(() => {
     instance.get(`/products/${id}`)
@@ -55,15 +57,31 @@ const Product = () => {
               </li>
 
             </ul>
-            <div className="product__info-buy">
-              <button className="products__card-btn header__btn">
-                В корзину
-                <BsCart3 size={20} />
-              </button>
-              <p className="product__info-price">
-                {product.price} ₽
-              </p>
-            </div>
+            {
+              basket.findIndex(item => item.id === product.id) > -1
+                ? <div className="products__card-buy">
+                  <button onClick={() => minusOneBasket(product.id)} type="button" className="products__card-btn header__btn">
+                    -
+                    <span></span>
+                  </button>
+                  <p className="products__card-price">
+                    {basket.find(item => item.id === product.id).count}
+                  </p>
+                  <button onClick={() => plusOneBasket(product.id)} type="button" className="products__card-btn header__btn">
+                    +
+                    <span></span>
+                  </button>
+                </div>
+                : <div className="products__card-buy">
+                  <button type="button" onClick={() => addBasket(product)} className="products__card-btn header__btn">
+                    В корзину
+                    <BsCart3 size={20} />
+                  </button>
+                  <p className="products__card-price">
+                    {product.price} ₽
+                  </p>
+                </div>
+            }
           </div>
         </div>
       </div>

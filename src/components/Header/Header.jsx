@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-
+import React from 'react';
 import { BiMap, BiPhoneCall } from 'react-icons/bi';
 import { CiSearch } from 'react-icons/ci';
 import { FaSignInAlt } from 'react-icons/fa';
@@ -8,9 +7,11 @@ import { BsPersonFill } from 'react-icons/bs';
 import { customContext } from '../../utils/Context';
 
 import "./Header.scss";
+import BasketEmpty from '../BasketEmpty/BasketEmpty';
 
 const Header = () => {
-  const { user, setUser } = useContext(customContext);
+  const { user, setUser, basket } = React.useContext(customContext);
+  const [show, setShow] = React.useState(false);
   const navigate = useNavigate();
 
   const logOutUser = () => {
@@ -65,14 +66,15 @@ const Header = () => {
               </Link>
           }
 
-          <button className="header__btn">
+          <button className="header__btn" onClick={() => basket.length ? navigate("/basket") : setShow(true)}>
             Корзина
             <span className="header__btn-count">
-              4
+              {basket.length}
             </span>
           </button>
         </nav>
       </div>
+      <BasketEmpty show={show} setShow={setShow} />
     </header>
   )
 };

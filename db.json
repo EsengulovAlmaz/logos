@@ -258,58 +258,6 @@
       "categories": "fish"
     },
     {
-      "id": 12,
-      "image": "/public/assets/products/menu1.png",
-      "title": "Утка",
-      "description": "Фаршированная рисом, курагой и айвой",
-      "price": 3230,
-      "weight": 2100,
-      "protein": 17.23,
-      "fats": 7.63,
-      "carbohydrates": 22.35,
-      "calories": 234,
-      "categories": "fish"
-    },
-    {
-      "id": 13,
-      "image": "/public/assets/products/menu2.png",
-      "title": "Утка",
-      "description": "Фаршированная рисом, курагой и айвой",
-      "price": 3230,
-      "weight": 2100,
-      "protein": 17.23,
-      "fats": 7.63,
-      "carbohydrates": 22.35,
-      "calories": 234,
-      "categories": "fish"
-    },
-    {
-      "id": 14,
-      "image": "/public/assets/products/menu3.png",
-      "title": "Утка",
-      "description": "Фаршированная рисом, курагой и айвой",
-      "price": 3230,
-      "weight": 2100,
-      "protein": 17.23,
-      "fats": 7.63,
-      "carbohydrates": 22.35,
-      "calories": 234,
-      "categories": "fish"
-    },
-    {
-      "id": 15,
-      "image": "/public/assets/products/menu4.png",
-      "title": "Утка",
-      "description": "Фаршированная рисом, курагой и айвой",
-      "price": 3230,
-      "weight": 2100,
-      "protein": 17.23,
-      "fats": 7.63,
-      "carbohydrates": 22.35,
-      "calories": 234,
-      "categories": "fish"
-    },
-    {
       "title": "Крем-суп из картофеля и лука-порея ",
       "image": "https://mir24.tv/uploaded/images/2018/March/5e831bd7393ec637fed1b039fa4e2e89be6dd5cd73fc972675814c0c9b31f6ae.jpg",
       "description": "Этот нежный крем-суп из грузинского кафе-сыроварни «Мама Гочи»  очень сытный, с мягкой текстурой и густой консистенцией.",
@@ -438,6 +386,19 @@
       "categories": "drinks",
       "calories": 76,
       "id": 25
+    },
+    {
+      "title": "Пицца на кефире",
+      "image": "https://www.gastronom.ru/binfiles/images/20191113/bd570867.jpg",
+      "description": "Рецепт нашей пиццы на кефире, конечно, далек от классической итальянской версии, но он также имеет право на существование хотя бы потому, что вы приготовите это блюдо меньше чем за час",
+      "price": "500",
+      "weight": "800",
+      "protein": "27",
+      "fats": "27",
+      "carbohydrates": "75",
+      "categories": "special",
+      "calories": 651,
+      "id": 26
     }
   ]
 }
